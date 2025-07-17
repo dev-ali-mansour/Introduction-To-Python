@@ -7,4 +7,10 @@ if "Sara Saad" in books.keys():
 else:
     print(False)
 
+print("==================")
 
+# Check if "Sara Saad" is not a key in books
+if "Sara Saad" not in books.keys():
+    print(True)
+else:
+    print(False)
