@@ -38,3 +38,9 @@ books = {"Ahmed Ali": "Introduction To Python", "Sara Saad": "Fundamentals Of Ar
 for key, val in books.items():
     # print(key,val)
     print(key, "=>", val)
+
+print("==================")
+
+# Loop through range
+for i in range(1, 5):
+    print(i)
