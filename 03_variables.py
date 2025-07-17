@@ -24,3 +24,8 @@ You're doing amazing work - please continue!'''
 
 print(review_one)
 print(review_two)
+
+current_course = "Basics of Python Programming"
+# Update 'Basics' to 'Fundamentals'
+current_course = current_course.replace("Basics", "Fundamentals")
+print(current_course)
