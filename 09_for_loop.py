@@ -44,3 +44,15 @@ print("==================")
 # Loop through range
 for i in range(1, 5):
     print(i)
+
+print("==================")
+
+# Building a counter
+# No Cars yet
+cars = 0
+# Loop through numbers 1-8
+for i in range(1, 9):
+    # Add one car during each iteration
+    cars += 1  # Same as cars = cars + 1
+
+print(cars)
