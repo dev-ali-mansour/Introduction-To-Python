@@ -5,6 +5,8 @@ degrees = [95.50, 73.25, 82.75, 59.5]
 for degree in degrees:
     print(degree)
 
+print("==================")
+
 for degree in degrees:
     if degree >= 95:
         print("A+")
@@ -20,3 +22,10 @@ for degree in degrees:
         print("C")
     else:
         print("F")
+
+print("==================")
+
+# Looping through strings
+name = "Cairo University"
+for char in name:
+    print(char)
