@@ -29,3 +29,12 @@ print("==================")
 name = "Cairo University"
 for char in name:
     print(char)
+
+print("==================")
+
+# Loop through dictionaries
+books = {"Ahmed Ali": "Introduction To Python", "Sara Saad": "Fundamentals Of Artificial Intelligence",
+         "Ali Mansour": "Fundamentals Of Machine Learning"}
+for key, val in books.items():
+    # print(key,val)
+    print(key, "=>", val)
