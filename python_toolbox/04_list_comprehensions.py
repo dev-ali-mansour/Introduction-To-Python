@@ -26,3 +26,10 @@ print("==================")
 # Nested Loop with List Comprehension
 paris_2 = [(num1, num2) for num1 in range(0, 2) for num2 in range(6, 8)]
 print(paris_2)
+
+print("==================")
+
+# Using the range of numbers from 0 to 9 as your iterable and i as your iterator variable, write a list
+# comprehension that produces a list of numbers consisting of the squared values of i.
+squared_numbers = [i ** 2 for i in range(0, 10)]
+print(squared_numbers)
