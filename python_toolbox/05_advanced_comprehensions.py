@@ -13,3 +13,17 @@ print("=======================")
 pos_neg = {num: -num for num in range(9)}
 print(pos_neg)
 print(type(pos_neg))
+
+print("=======================")
+
+# You are given a list of strings fellowship and, using a list comprehension, you will create a list that only
+# includes the members of fellowship that have 7 characters or more.
+
+# Create a list of strings: fellowship
+fellowship = ['frodo', 'samwise', 'merry', 'aragorn', 'legolas', 'boromir', 'gimli']
+
+# Create list comprehension: new_fellowship
+new_fellowship = [member for member in fellowship if len(member) >= 7]
+
+# Print the new list
+print(new_fellowship)
