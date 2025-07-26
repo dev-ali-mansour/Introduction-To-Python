@@ -16,9 +16,9 @@ for us_cookie, in_cookie in top_pairs:
 
 # Enumerating positions
 for idx, item in enumerate(top_pairs):
-    us_cookie,in_cookie=item
-    print(idx,us_cookie,in_cookie)
+    us_cookie, in_cookie = item
+    print(idx, us_cookie, in_cookie)
 
 # Beware of tailing commas!
-item2='butter',
+item2 = 'butter',
 print(item2)
