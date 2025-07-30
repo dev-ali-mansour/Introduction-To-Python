@@ -24,6 +24,6 @@ rides['Duration'] = rides['End date'] - rides['Start date']
 # Print the first 5 rows
 print(rides['Duration'].head(5))
 
-print(rides['Duration']\
-      .dt.total_seconds()\
+print(rides['Duration'] \
+      .dt.total_seconds() \
       .head(5))
