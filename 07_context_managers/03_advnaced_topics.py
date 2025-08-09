@@ -37,7 +37,7 @@ def copy(src, dst):
 # Handling errors
 @contextlib.contextmanager
 def get_printer(ip):
-    p = connet_to_printer(ip)
+    p = connect_to_printer(ip)
 
     try:
         yield
