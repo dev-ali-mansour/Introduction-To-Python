@@ -1,0 +1,6 @@
+This is my text file.
+It contains some text.
+You can read it using Python.
+You can also write to it.
+Make sure to close it after use.
+This is the end of the file.
